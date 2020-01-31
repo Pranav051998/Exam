@@ -1,0 +1,43 @@
+*{
+	margin:0px auto;
+}
+.container{
+ max-width: 900px;
+}
+.coler{
+	background:#0040ff;
+}
+.toplist ul{
+	float:right;
+	list-style-type: none;
+    margin: 0;
+	padding: 0;
+	overflow: hidden;   
+	
+}
+.toplist ul li {
+    display: inline-block;
+    padding: 15px;
+  }
+.toplist a:hover {
+  background-color: #111;
+  padding: 10px;
+}
+.toplist li a{
+	text-decoration: none;
+}
+.parent{
+    float: left;
+	width: 100%;
+	background: url("img-1.jpg") no-repeat center center/cover;
+	height: 50vh;
+	position: relative;
+}
+.child{
+position: absolute;
+width: inherit;
+top: 0px;
+left: 0px;
+height: inherit;
+background:rgba(0,0,44,0.7);
+}
